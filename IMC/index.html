@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Cálculo de IMC</h1>
+    <p>O IMC (Índice de Massa Corporal) é um critério da Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+    <div class="information">
+      <div >
+        <h2 class="classification">Classificação</h2>
+        <p>Magreza Grave</p>
+        <p>Magreza Moderada</p>
+        <p>Magreza Leve</p>
+        <p>Saudável</p>
+        <p>Sobrepeso</p>
+        <p>Obesidade Grau I</p>
+        <p>Obesidade Grau II</p>
+        <p>Obesidade Grau III</p>
+      </div>
+      <div>
+        <h2 class="imc">IMC</h2>
+        <p>Menor que 16</p>
+        <p>16 a 17</p>
+        <p>17 a 18,5</p>
+        <p>18,5 a 25</p>
+        <p>25 a 30</p>
+        <p>30 a 35</p>
+        <p>35 a 40</p>
+        <p>Maior que 40</p>
+      </div>
+    </div>
+    <h2 class="title">
+      Calcule seu IMC
+    </h2>
+
+    <form action="/" class="form" method="post">
+      <label for="weight">Peso:</label>
+      <input type="text" id="weight">
+      <label for="height">Altura:</label>
+      <input type="text" id="height">
+      <button type="submit">Calcular</button>
+    </form>
+
+    <p class="result"></p>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
